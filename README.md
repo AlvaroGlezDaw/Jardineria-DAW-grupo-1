@@ -9,3 +9,4 @@ Enol González Muñiz
 Iván Álvarez Mera
 Ángel Alonso Iglesias
 Alberto González Balbuena
+David Fernández Requeijo
