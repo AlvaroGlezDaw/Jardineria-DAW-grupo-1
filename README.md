@@ -7,3 +7,4 @@ Trabajo en grupo de la case 1º de daw subgrupo 1
 Diego Espina Rodriguez
 Enol González Muñiz
 Iván Álvarez Mera
+Ángel Alonso Iglesias
