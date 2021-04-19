@@ -6,3 +6,4 @@ Trabajo en grupo de la case 1º de daw subgrupo 1
 Álvaro González Carracedo
 Diego Espina Rodriguez
 Enol González Muñiz
+Iván Álvarez Mera
