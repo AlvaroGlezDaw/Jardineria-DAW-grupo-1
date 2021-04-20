@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	background: green;
+	background: url("img/fondo.jpg");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header{
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	padding: 20px;
+	background: #2E86C1;
+	border:solid 3px #fff;
+	border-radius: 10px;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 30px;
+}
+
+.temporadas{
+	margin: auto;
+	padding: 20px;
+	width:90%;
+	max-width: 1500px;
+	height: 70%;
+	background: rgb(245, 245, 220,0.9);
+	border:solid 3px #000;
+	border-radius: 10px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.invierno, .verano{
+	width: 100%;
+	margin-bottom: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.primavera, .otono{
+	width: 100%;
+	margin-bottom: 20px;
+
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.invierno h2,.verano h2{
+	width: 100%;
+	margin: 10px;
+	color: #D35400;
+	font-size: 40px; 
+	font-style: italic;
+	font-family: monospace;
+}
+.primavera h2,.otono h2{
+	width: 100%;
+	margin: 10px;
+	color: #D35400; 
+	font-size: 40px; 
+	font-style: italic;
+	font-family: monospace;
+
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.invierno .crisantemo,.invierno .flor_Pensamiento,.invierno .primula_Obconica, .verano .geranio,.verano .dalia,.verano .girasol{
+	width: 70%;
+	padding: 10px;
+	margin: 20px;
+	border:solid 3px #000;
+	border-radius: 10px;
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+.invierno .crisantemo img,.invierno .flor_Pensamiento img,.invierno .primula_Obconica img, .verano .geranio img,.verano .dalia img,.verano .girasol img{
+	width: 30%;
+	margin-right: 20px;
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.primavera .rosa,.primavera .lavanda,.primavera .tulipan, .otono .helenium,.otono .crocus,.otono .zinnia{
+	width: 70%;
+	padding: 10px;
+	margin: 20px;
+	border:solid 3px #000;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+}
+
+.primavera .rosa img,.primavera .lavanda img,.primavera .tulipan img, .otono .helenium img,.otono .crocus img,.otono .zinnia img{
+	width: 30%;
+	margin-left: 20px;
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+footer{
+	width: 90%;
+	height: 200px;
+	background: #000;
+	color: #fff;
+	margin: auto; 
+	padding: 20px; 
+	border:solid 3px #fff;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content:space-between; 
+}
+
+footer .infoContacto{
+	height: 100%;
+}
+
+footer .redes_sociales{
+	height: 100%;
+}
+
+footer .redes_sociales a{
+	color: #fff;
+	text-decoration: none;
+}
+footer h2{
+	text-decoration: underline;
+	margin-bottom: 10px;
+
+}
