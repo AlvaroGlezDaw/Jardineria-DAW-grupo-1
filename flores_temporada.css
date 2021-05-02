@@ -6,154 +6,193 @@
 	box-sizing: border-box;
 }
 
+/*------Flores_temporada(flores_temporada.html)---------*/
+
 body{
-	font-family: sans-serif;
-	background: green;
-	background: url("img/fondo.jpg");
-	background-position: center center;
-	background-repeat: no-repeat; 
-	background-attachment: fixed;
-	background-size: cover;
+    font-family: sans-serif;
+    background: url("img/PATRON-FONDO.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 header{
-	width: 90%;
-	height: 150px;
-	margin: auto;
-	padding: 20px;
-	background: #2E86C1;
-	border:solid 3px #fff;
-	border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px 5px;
+    background: #2E86C1;
+    background: rgb(46, 134, 193,0.9);
+    border:solid 3px #000;
+    border-radius: 10px;
 
+	position:fixed;
+	top: 0px;
+    z-index: 2;
+	left: 75px;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header img{
+	width: 100%;
+}
+
+header nav{
+	width: 100%;
+	margin-top: 20px;
 	display: flex;
 	align-items: flex-end;
 }
 
-header nav a{
-	text-decoration: none;
-	color: #fff;
-	margin-right: 30px;
+header nav .menu {
+	list-style: none;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+nav .menu li a:hover {
+    color: #81C002 ;  
+    border-radius: 10px;  
 }
 
 .temporadas{
-	margin: auto;
-	padding: 20px;
-	width:90%;
-	max-width: 1500px;
-	height: 70%;
-	background: rgb(245, 245, 220,0.9);
-	border:solid 3px #000;
-	border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width:90%;
+    max-width: 1500px;
+    height: 70%;
+    background: rgb(245, 245, 220,0.9);
+    border:solid 3px #000;
+    border-radius: 10px;
 
-	display: flex;
-	flex-wrap: wrap;
+    position: relative;
+    margin-top:185px; 
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .invierno, .verano{
-	width: 100%;
-	margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .primavera, .otono{
-	width: 100%;
-	margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .invierno h2,.verano h2{
-	width: 100%;
-	margin: 10px;
-	color: #D35400;
-	font-size: 40px; 
-	font-style: italic;
-	font-family: monospace;
+    width: 100%;
+    margin: 10px;
+    color: #D35400;
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
 }
 .primavera h2,.otono h2{
-	width: 100%;
-	margin: 10px;
-	color: #D35400; 
-	font-size: 40px; 
-	font-style: italic;
-	font-family: monospace;
+    width: 100%;
+    margin: 10px;
+    color: #D35400; 
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
 
-	display: flex;
-	justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
 .invierno .crisantemo,.invierno .flor_Pensamiento,.invierno .primula_Obconica, .verano .geranio,.verano .dalia,.verano .girasol{
-	width: 70%;
-	padding: 10px;
-	margin: 20px;
-	border:solid 3px #000;
-	border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    border:solid 3px #000;
+    border-radius: 10px;
 
-	display: flex;
-	flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .invierno .crisantemo img,.invierno .flor_Pensamiento img,.invierno .primula_Obconica img, .verano .geranio img,.verano .dalia img,.verano .girasol img{
-	width: 30%;
-	margin-right: 20px;
+    width: 30%;
+    margin-right: 20px;
 
-	display: flex;
-	flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .primavera .rosa,.primavera .lavanda,.primavera .tulipan, .otono .helenium,.otono .crocus,.otono .zinnia{
-	width: 70%;
-	padding: 10px;
-	margin: 20px;
-	border:solid 3px #000;
-	border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    border:solid 3px #000;
+    border-radius: 10px;
 
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
 
 .primavera .rosa img,.primavera .lavanda img,.primavera .tulipan img, .otono .helenium img,.otono .crocus img,.otono .zinnia img{
-	width: 30%;
-	margin-left: 20px;
+    width: 30%;
+    margin-left: 20px;
 
-	display: flex;
-	flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 footer{
-	width: 90%;
-	height: 200px;
-	background: #000;
-	color: #fff;
-	margin: auto; 
-	padding: 20px; 
-	border:solid 3px #fff;
-	border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    background: rgb(58, 58, 58,0.9);
+    color: #fff;
+    margin: auto; 
+    padding: 20px; 
+    border:solid 3px #000;
+    border-radius: 10px;
 
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content:space-between; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 footer .infoContacto{
-	height: 100%;
+    height: 100%;
 }
 
-footer .redes_sociales{
-	height: 100%;
+footer .redes{
+    height: 100%;
 }
 
-footer .redes_sociales a{
-	color: #fff;
-	text-decoration: none;
-}
 footer h2{
-	text-decoration: underline;
-	margin-bottom: 10px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
 
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .redes a img{
+    width: 30px;
 }
