@@ -14,4 +14,4 @@ Trabajo en grupo de la case 1º de daw subgrupo 1
 - Antonio García Rodríguez
 
 # Instrucciones:
-Para viisualizar la pagina web solo debe acceder a https://alvaroglezdaw.github.io/Jardineria-DAW-grupo-1/
+Para visualizar la página web solo debe acceder a https://alvaroglezdaw.github.io/Jardineria-DAW-grupo-1/
