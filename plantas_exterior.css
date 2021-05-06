@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url("img/PATRON-FONDO.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px 5px;
+    background: #2E86C1;
+    background: rgb(46, 134, 193,0.9);
+    border:solid 3px #000;
+    border-radius: 10px;
+
+	position:fixed;
+	top: 0px;
+    z-index: 2;
+	left: 75px;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header img{
+	width: 100%;
+}
+
+header nav{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-end;
+}
+
+header nav .menu {
+	list-style: none;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+nav .menu li a:hover {
+    color: #81C002 ;  
+    border-radius: 10px;  
+}
+
+.plantas_exterior{
+    margin: auto;
+    padding: 20px;
+    width:90%;
+    max-width: 1500px;
+    height: 70%;
+    background: rgb(245, 245, 220,0.9);
+    border: solid 3px black;
+    border-radius: 10px;
+
+    position: relative;
+    margin-top:185px; 
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+    color: #D35400;
+    font-size: 60px; 
+    font-style: italic;
+    font-family: monospace;
+    align-items: center;
+}
+
+.plantas_exterior h2{
+    width: 100%;
+    margin: 10px;
+    color: #D35400;
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
+}
+
+.verbena, .pasiflora, .crisantemo, .clivia{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.verbena, .pasiflora, .crisantemo, .clivia img{
+    width: 30%;
+    margin-right: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.verbena, .pasiflora, .crisantemo{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+footer{
+    width: 90%;
+    height: 200px;
+    background: rgb(58, 58, 58,0.9);
+    color: #fff;
+    margin: auto; 
+    padding: 20px; 
+    border:solid 3px #000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+footer .infoContacto{
+    height: 100%;
+}
+
+footer .redes{
+    height: 100%;
+}
+
+footer h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .redes a img{
+    width: 30px;
+}
