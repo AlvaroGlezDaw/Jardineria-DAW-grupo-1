@@ -13,6 +13,7 @@ body{
     background-repeat: repeat;
     margin-top: 10px;
     margin-bottom: 10px; 
+    font-size: 16px;
 }
 
 header{
@@ -23,11 +24,6 @@ header{
     background: rgb(46, 134, 193,0.9);
     border:solid 3px #000;
     border-radius: 10px;
-
-	position:fixed;
-	top: 0px;
-    z-index: 2;
-	left: 75px;
 
     display: flex;
     flex-wrap: wrap;
@@ -75,11 +71,39 @@ nav .menu li a:hover {
     border:solid 3px #000;
     border-radius: 10px;
 
-    position: relative;
-    margin-top:185px; 
-
     display: flex;
     flex-wrap: wrap;
+}
+.temporadas .orientacion{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.temporadas .orientacion a{
+    font-size:18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.temporadas .orientacion a:hover {
+    color: #339999;  
+    border-radius: 10px;  
+}
+
+.temporadas .indice{
+    border:solid 3px #000;
+    border-radius: 10px;
+}
+
+.temporadas .indice .menu{
+    list-style: none;
+}
+
+.temporadas .indice li a{
+    text-decoration: none;
+    color: #2E8B57;
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px 20px;
 }
 
 .invierno, .verano{

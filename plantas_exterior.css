@@ -24,11 +24,6 @@ header{
     border:solid 3px #000;
     border-radius: 10px;
 
-	position:fixed;
-	top: 0px;
-    z-index: 2;
-	left: 75px;
-
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -74,9 +69,6 @@ nav .menu li a:hover {
     background: rgb(245, 245, 220,0.9);
     border: solid 3px black;
     border-radius: 10px;
-
-    position: relative;
-    margin-top:185px; 
 
     display: flex;
     flex-wrap: wrap;

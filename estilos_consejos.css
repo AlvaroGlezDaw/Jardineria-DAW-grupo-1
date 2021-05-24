@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url("img/PATRON-FONDO.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px 5px;
+    background: #2E86C1;
+    background: rgb(46, 134, 193,0.9);
+    border:solid 3px #000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header img{
+	width: 100%;
+}
+
+header nav{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-end;
+}
+
+header nav .menu {
+	list-style: none;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+nav .menu li a:hover {
+    color: #81C002 ;  
+    border-radius: 10px;  
+}
+
+.consejos{
+    margin: auto;
+    padding: 20px;
+    width:90%;
+    max-width: 1500px;
+    height: 70%;
+    background: rgb(245, 245, 220,0.9);
+    border:solid 3px #000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.consejo1 ul{
+
+    margin-left: 35px;
+}
+.consejo1, .consejo3, .consejo5{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.consejo2, .consejo4, .consejo6{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.consejo1 h2, .consejo3 h2, .consejo5 h2{
+    width: 100%;
+    margin: 10px;
+    color: #D35400;
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
+}
+.consejo2 h2, .consejo4 h2, .consejo6 h2{
+    width: 100%;
+    margin: 10px;
+    color: #D35400; 
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    width: 90%;
+    height: 200px;
+    background: rgb(58, 58, 58,0.9);
+    color: #fff;
+    margin: auto; 
+    padding: 20px; 
+    border:solid 3px #000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+footer .infoContacto{
+    height: 100%;
+}
+
+footer .redes{
+    height: 100%;
+}
+
+footer h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .redes a img{
+    width: 30px;
+}
