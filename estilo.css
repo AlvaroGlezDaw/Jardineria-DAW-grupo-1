@@ -72,6 +72,9 @@ nav .menu li a:hover {
 
 .izquierda {
  width: 25%;
+ border: 2px solid green;
+ justify-content: center;
+ background-color: rgb(245, 245, 220,0.9);;
 }
 
 
@@ -85,11 +88,33 @@ nav .menu li a:hover {
 .derecha {
     width: 74%;
     text-align: center;
+    background-color: rgb(245, 245, 220,0.9);
+    border: 2px solid green;
 }
 
-.imgcentro {
+.imgmenu{
     width: 70%;
 }
+
+.imgjardineria{
+    justify-content: center;
+    display: flex;
+}
+
+
+nav ul{
+    justify-content: center;
+    margin: 15px;
+    background-color: rgb(245, 245, 220,0.9);;
+}
+
+nav ul li{
+    padding-top: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
 
 @keyframes slide {
     0% { transform: translateX(0); }
@@ -115,7 +140,8 @@ nav .menu li a:hover {
  
 .wrapper {
     margin: auto;
-    width: 90%;
+    width: 80%;
+    padding-top: 30PX;
 }
  
 .slider {
@@ -133,7 +159,7 @@ nav .menu li a:hover {
 .slide {
     flex-shrink: 0;
     animation-name: slide;
-    animation-duration: 25s;
+    animation-duration: 35s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
