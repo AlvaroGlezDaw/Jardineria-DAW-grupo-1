@@ -2,25 +2,22 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
-body {
-    background: #ece2c6;
-}
-
-.contenedor {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: url(img/PATRON-FONDO.jpg);
+body{
+    font-family: sans-serif;
+    background: url("img/PATRON-FONDO.jpg");
+    background-position: center;
     background-repeat: repeat;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-size: 16px;
 }
+
 
 header {
-
    width: 100%;
    text-align: center;
    margin: 20px auto;
@@ -29,22 +26,16 @@ header {
 
 nav{
     width: 100%;
-
+    margin-bottom: 20px;
 }
 
 .menu {
     display: flex;
     list-style: none;
     background: #3A3A3A;
-    padding: 0px;
-    padding-left: 5%;
     font-family: 'Indie Flower', cursive;
-}
-
-
-.naranco {
-    width: 50px;
-    align-items: flex-start;
+    padding: 0px auto;
+    justify-content: center;
 }
 
 
@@ -53,177 +44,107 @@ nav .menu li a {
     color: white ;
     font-size: 18px;
     display: inline-block;
-    padding: 12px 20px;
+    padding: 12px 15px;
 }
 
 
 
 nav .menu li a:hover {
     color: #81C002 ;  
-    border-radius: 10px;  
 }
 
-.cuerpo {
-    width: 90%;
+.plantas_interior{
     margin: auto;
+    padding: 20px;
+    width:90%;
+    max-width: 1500px;
+    height: 70%;
+    background: rgb(245, 245, 220,0.9);
+    border: solid 3px black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
-
-.izquierda {
- width: 25%;
-}
-
-
-.menuizq{
-    background:#81C002;
-    margin-top: 28px;
-    padding: 7px 20px;
-    
-}
-
-
-.derecha {
-    width: 74%;
-    text-align: center;
-}
-
-.imgcentro {
-    width: 70%;
-}
-
-@keyframes slide {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(0); }
- 
-    15% { transform: translateX(-100%); }
-    30% { transform: translateX(-100%); }
- 
-    35% { transform: translateX(-200%); }
-    50% { transform: translateX(-200%); }           
- 
-    55% { transform: translateX(-300%); }
-    70% { transform: translateX(-300%); }
- 
-    75% { transform: translateX(-400%); }
-    90% { transform: translateX(-400%); }
- 
-    95% { transform: translateX(-500%); }
-    100% { transform: translateX(-500%); }
-}
- 
-
- 
-.wrapper {
-    margin: auto;
-    width: 90%;
-}
- 
-.slider {
-    position: relative;
-    
-}
- 
-.slides {
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    
-}
- 
-.slide {
-    flex-shrink: 0;
-    animation-name: slide;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
- 
-.slides:hover .slide {
-    animation-play-state: paused;
-}
- 
-.slide img {
+h1 {
     width: 100%;
-    vertical-align: top;
+    color: #D35400;
+    font-size: 60px; 
+    font-style: italic;
+    font-family: monospace;
+    align-items: center;
 }
- 
- 
-@media only screen {
-    .slide {
-        width: 100%;
-    }
- 
-  
+
+.plantas_interior h2{
+    width: 100%;
+    margin: 10px;
+    color: #D35400;
+    font-size: 40px; 
+    font-style: italic;
+    font-family: monospace;
 }
- 
+
+.Planta1, .Planta2, .Planta3, .termostato, .maceta{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Planta1 img, .Planta2 img, .Planta3 img, .termostato img, .maceta img{
+    width: 20%;
+    margin-right: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Planta1, .Planta2, .Planta3{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 footer{
-    width: 100%;
+    width: 90%;
+    height: 200px;
+    background: rgb(58, 58, 58,0.9);
+    color: #fff;
+    margin: auto; 
+    padding: 20px; 
+    border:solid 3px #000;
+    border-radius: 10px;
+
     display: flex;
-    flex-direction: row;
-    background: #3A3A3A;
-    color: white;
-    margin: 40px 0px;
-    padding-left: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
-.autor{
-    width: 50%;
-    align-self: flex-start;
-    
-    font-size: 15px;
+footer .infoContacto{
+    height: 100%;
 }
 
-.redes{
+footer .redes{
+    height: 100%;
+}
+
+footer h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .redes a img{
     width: 30px;
-
-}
-
-.rrss{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-self: center;
-    padding-right: 20px;
-}
-
-.titulo {
-    background: #000;
-    font-size: 35px;
-    font-style:italic;
-    color: #78FF00;
-}
-
-.titulo2 {
-    font-size: 25px;
-    font-style:italic;
-    color: #0051F3;
-    margin-left: 25px;
-    display: flex;
-    justify-content: start;
-}
-
-.plantas_interior {
-	width: 70%;
-	padding: 10px;
-	margin: 20px;
-    border: 3px solid green;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.plantas_interior img{
-	width: 30%;
-	margin-right: 20px;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.plantas_interior p {
-    font-size: 18px;
 }

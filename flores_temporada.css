@@ -1,65 +1,58 @@
-*{
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     font-family: sans-serif;
     background: url("img/PATRON-FONDO.jpg");
-    background-position: center center;
+    background-position: center;
     background-repeat: repeat;
     margin-top: 10px;
     margin-bottom: 10px; 
     font-size: 16px;
 }
 
-header{
-    width: 90%;
-    margin: auto;
-    padding: 20px 20px 5px;
-    background: #2E86C1;
-    background: rgb(46, 134, 193,0.9);
-    border:solid 3px #000;
-    border-radius: 10px;
 
+header {
+   width: 100%;
+   text-align: center;
+   margin: 20px auto;
+}
+
+
+nav{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu {
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-header img{
-	width: 100%;
-}
-
-header nav{
-	width: 100%;
-	margin-top: 20px;
-	display: flex;
-	align-items: flex-end;
-}
-
-header nav .menu {
-	list-style: none;
+    list-style: none;
+    background: #3A3A3A;
     font-family: 'Indie Flower', cursive;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0px auto;
+    justify-content: center;
 }
 
-header nav .menu li a{
+
+nav .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: white ;
     font-size: 18px;
     display: inline-block;
-    padding: 12px 20px;
+    padding: 12px 15px;
 }
+
+
 
 nav .menu li a:hover {
     color: #81C002 ;  
-    border-radius: 10px;  
 }
+ 
 
 .temporadas{
     margin: auto;
@@ -69,7 +62,6 @@ nav .menu li a:hover {
     height: 70%;
     background: rgb(245, 245, 220,0.9);
     border:solid 3px #000;
-    border-radius: 10px;
 
     display: flex;
     flex-wrap: wrap;
@@ -186,15 +178,13 @@ footer{
     height: 200px;
     background: rgb(58, 58, 58,0.9);
     color: #fff;
-    margin: auto; 
     padding: 20px; 
     border:solid 3px #000;
-    border-radius: 10px;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
+    margin: 10px auto;
 }
 
 footer .infoContacto{

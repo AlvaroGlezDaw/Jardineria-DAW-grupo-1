@@ -2,22 +2,22 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
-
-.contenedor {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+body{
+    font-family: sans-serif;
     background: url("img/PATRON-FONDO.jpg");
+    background-position: center;
     background-repeat: repeat;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-size: 16px;
 }
+
 
 header {
-
    width: 100%;
    text-align: center;
    margin: 20px auto;
@@ -26,22 +26,16 @@ header {
 
 nav{
     width: 100%;
-
+    margin-bottom: 20px;
 }
 
 .menu {
     display: flex;
     list-style: none;
     background: #3A3A3A;
-    padding: 0px;
-    padding-left: 5%;
     font-family: 'Indie Flower', cursive;
-}
-
-
-.naranco {
-    width: 50px;
-    align-items: flex-start;
+    padding: 0px auto;
+    justify-content: center;
 }
 
 
@@ -50,14 +44,13 @@ nav .menu li a {
     color: white ;
     font-size: 18px;
     display: inline-block;
-    padding: 12px 20px;
+    padding: 12px 15px;
 }
 
 
 
 nav .menu li a:hover {
     color: #81C002 ;  
-    border-radius: 10px;  
 }
 
 .cuerpo {
@@ -72,7 +65,7 @@ nav .menu li a:hover {
 
 .izquierda {
  width: 25%;
- border: 2px solid green;
+ border: 2px solid black;
  justify-content: center;
  background-color: rgb(245, 245, 220,0.9);;
 }
@@ -84,12 +77,22 @@ nav .menu li a:hover {
     
 }
 
+.widget{
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.widget ul li{
+    padding-bottom: 20px;
+    margin-left: 5%;
+    list-style: none;
+}
 
 .derecha {
     width: 74%;
     text-align: center;
     background-color: rgb(245, 245, 220,0.9);
-    border: 2px solid green;
+    border: 2px solid black;
 }
 
 .imgmenu{
@@ -102,16 +105,9 @@ nav .menu li a:hover {
 }
 
 
-nav ul{
-    justify-content: center;
-    margin: 15px;
-    background-color: rgb(245, 245, 220,0.9);;
-}
 
-nav ul li{
-    padding-top: 10px;
-    text-decoration: none;
-    list-style: none;
+h2{
+    font-family: 'Indie Flower', cursive ;
 }
 
 
@@ -182,34 +178,35 @@ nav ul li{
   
 }
  
-
 footer{
-    width: 100%;
+    width: 90%;
+    height: 200px;
+    background: rgb(58, 58, 58,0.9);
+    color: #fff;
+    padding: 20px; 
+    border:solid 3px #000;
     display: flex;
-    flex-direction: row;
-    background: #3A3A3A;
-    color: white;
-    margin: 40px 0px;
-    padding-left: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 10px auto;
 }
 
-.autor{
-    width: 50%;
-    align-self: flex-start;
-    
-    font-size: 15px;
+footer .infoContacto{
+    height: 100%;
 }
 
-.redes{
+footer h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .redes a img{
     width: 30px;
-
 }
 
-.rrss{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-self: center;
-    padding-right: 20px;
-}
