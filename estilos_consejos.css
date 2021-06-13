@@ -53,43 +53,40 @@ nav .menu li a:hover {
     color: #81C002 ;  
 }
 
-.consejos{
+.consejos {
     margin: auto;
     padding: 20px;
     width:90%;
     max-width: 1500px;
     height: 70%;
     background: rgb(245, 245, 220,0.9);
-    border:solid 3px #000;
+    border: solid 3px black;
     display: flex;
     flex-wrap: wrap;
 }
 
-.consejo1 ul{
-
-    margin-left: 35px;
+.consejos a {
+    text-decoration: none;
+    color: #D35400;
 }
-.consejo1, .consejo3, .consejo5{
+
+.consejos img {
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+    height: 200px;
+}
+
+h1 {
     width: 100%;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.consejo2, .consejo4, .consejo6{
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    color: #D35400;
+    font-size: 60px; 
+    font-style: italic;
+    font-family: monospace;
+    align-items: center;
 }
 
-.consejo1 h2, .consejo3 h2, .consejo5 h2{
+.consejos h2{
     width: 100%;
     margin: 10px;
     color: #D35400;
@@ -97,17 +94,34 @@ nav .menu li a:hover {
     font-style: italic;
     font-family: monospace;
 }
-.consejo2 h2, .consejo4 h2, .consejo6 h2{
-    width: 100%;
-    margin: 10px;
-    color: #D35400; 
-    font-size: 40px; 
-    font-style: italic;
-    font-family: monospace;
+
+.Planta1, .Planta2, .Planta3, .termostato, .maceta{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Planta1 img, .Planta2 img, .Planta3 img, .termostato img, .maceta img{
+    width: 20%;
+    margin-right: 20px;
 
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
 }
+
+.Planta1, .Planta2, .Planta3{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 footer{
     width: 90%;
